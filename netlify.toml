@@ -6,8 +6,11 @@
   [headers.values]
     X-Frame-Options = "DENY"
     X-XSS-Protection = "1; mode=block"
-    X-Content-Type-Options : "nosniff"
-    
+    X-Content-Type-Options : nosniff
+    X-WebKit-CSP: default-src 'self'
+    P3P: CP="This is not a P3P policy! See https://en.wikipedia.org/wiki/Special:CentralAutoLogin/P3P for more info."
+    Referer: https://app.netlify.com/sites/lab-6-ambaram/overview
+
 
     #  Multi-value headers are expressed with multi-line strings
 	cache-control = '''
