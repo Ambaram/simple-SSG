@@ -5,7 +5,7 @@ netlify.toml :
 X-Frame-Options: DENY
 X-XSS-Protection : 1 ; mode = block
 Content-Security-Policy: child-src "https://lab-6-ambaram.netlify.app/"
-X-Content-Type-Options: nosniff
+X-Content-Type-Options: "nosniff"
 Referrer-Policy: no-referrer
 PermissionsPolicy = sh-dictionary
 
